@@ -1,0 +1,32 @@
+tray_id,analysis_role,batch_id,subunit_1_id,subunit_1_fresh_weight_g,subunit_2_id,subunit_2_fresh_weight_g,whole_tray_fresh_weight_g,weight_source,include_in_regression,measurement_notes
+07.07.26D1D2,held_out_development_test,260707,D1,31.220,D2,31.202,62.422,sum_subunits,false,Held-out development test; 40um treatment; never used for model fitting
+07.07.26E1E2,held_out_development_test,260707,E1,31.081,E2,29.602,60.683,sum_subunits,false,Held-out development test; 80um treatment; never used for model fitting
+21.07.26A1A2,model_development_pilot,260721,A1,,A2,,61.66,whole_tray_direct,true,
+21.07.26A3A4,model_development_pilot,260721,A3,,A4,,58.87,whole_tray_direct,true,
+21.07.26A5A6,model_development_pilot,260721,A5,,A6,,53.556,whole_tray_direct,false,Fresh weight retained; excluded from current regression because metric-scale QC failed
+21.07.26B1B2,model_development_pilot,260721,B1,,B2,,58.119,whole_tray_direct,true,
+21.07.26B3B4,model_development_pilot,260721,B3,,B4,,58.612,whole_tray_direct,true,
+21.07.26B5B6,model_development_pilot,260721,B5,,B6,,52.393,whole_tray_direct,true,
+21.07.26C1C2,model_development_pilot,260721,C1,,C2,,57.1,whole_tray_direct,true,
+21.07.26C3C4,model_development_pilot,260721,C3,,C4,,58.213,whole_tray_direct,false,Fresh weight retained; excluded from current regression because metric-scale QC failed
+21.07.26C5C6,model_development_pilot,260721,C5,,C6,,58.193,whole_tray_direct,true,
+21.07.26D1D2,model_development_pilot,260721,D1,,D2,,56.947,whole_tray_direct,true,
+21.07.26D3D4,model_development_pilot,260721,D3,,D4,,58.551,whole_tray_direct,true,
+21.07.26D5D6,model_development_pilot,260721,D5,,D6,,58.723,whole_tray_direct,true,
+21.07.26E1E2,model_development_pilot,260721,E1,,E2,,59.832,whole_tray_direct,false,Fresh weight retained; excluded from current regression because final pose-graph QC failed
+21.07.26E3E4,model_development_pilot,260721,E3,,E4,,55.845,whole_tray_direct,true,
+21.07.26mark1mark2,development_challenge_case,260721,unassigned_side_measurement_1,21.68,unassigned_side_measurement_2,12.186,33.866,sum_subunits,false,Used for diagnostic feature development and no longer an independent held-out test; two measured side weights sum to 33.866 g but their mark1/mark2 spatial identity in the images is unknown
+12.08.26A1A2,model_development_pending_qc,20260812,A1,32.503,A2,32.748,65.251,sum_subunits,false,New batch; control treatment; pending reconstruction and metric-scale QC
+12.08.26A3A4,model_development_pending_qc,20260812,A3,28.992,A4,27.729,56.721,sum_subunits,false,New batch; control treatment; pending reconstruction and metric-scale QC
+12.08.26B1B2,model_development_pending_qc,20260812,B1,33.317,B2,31.606,64.923,sum_subunits,false,New batch; 160um treatment; pending reconstruction and metric-scale QC
+12.08.26B3B4,model_development_pending_qc,20260812,B3,31.233,B4,32.224,63.457,sum_subunits,false,New batch; 160um treatment; pending reconstruction and metric-scale QC
+12.08.26B5B6,model_development_pending_qc,20260812,B5,29.472,B6,28.185,57.657,sum_subunits,false,New batch; 160um treatment; pending reconstruction and metric-scale QC
+12.08.26C1C2,model_development_pending_qc,20260812,C1,29.068,C2,29.536,58.604,sum_subunits,false,New batch; 320um treatment; pending reconstruction and metric-scale QC
+12.08.26C3C4,model_development_pending_qc,20260812,C3,33.542,C4,32.018,65.560,sum_subunits,false,New batch; 320um treatment; pending reconstruction and metric-scale QC
+12.08.26C5C6,model_development_pending_qc,20260812,C5,29.131,C6,29.254,58.385,sum_subunits,false,New batch; 320um treatment; pending reconstruction and metric-scale QC
+12.08.26D1D2,model_development_pending_qc,20260812,D1,31.560,D2,30.917,62.477,sum_subunits,false,New batch; 480um treatment; pending reconstruction and metric-scale QC
+12.08.26D3D4,model_development_pending_qc,20260812,D3,30.654,D4,31.298,61.952,sum_subunits,false,New batch; 480um treatment; pending reconstruction and metric-scale QC
+12.08.26D5D6,model_development_pending_qc,20260812,D5,30.980,D6,30.504,61.484,sum_subunits,false,New batch; 480um treatment; pending reconstruction and metric-scale QC
+12.08.26E1E2,model_development_pending_qc,20260812,E1,33.987,E2,32.097,66.084,sum_subunits,false,New batch; 640um treatment; pending reconstruction and metric-scale QC
+12.08.26E3E4,model_development_pending_qc,20260812,E3,33.299,E4,31.432,64.731,sum_subunits,false,New batch; 640um treatment; pending reconstruction and metric-scale QC
+12.08.26E5E6,model_development_pending_qc,20260812,E5,29.464,E6,29.301,58.765,sum_subunits,false,New batch; 640um treatment; pending reconstruction and metric-scale QC
